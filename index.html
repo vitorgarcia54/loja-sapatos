@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uma loja de sapatos">
+    <meta name="keywords" content="comprar sapatos, loja de sapatos, sapatos baratos">
+    <meta name="author" content="Vitor Garcia">
+    <title>Loja de Sapatos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav id="nav">
+            <div class="logo-box">
+                <img src="img/logo.png" alt="Tênis">
+                <h1>Loja de Sapatos</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#">Produtos</a>
+                <a href="#">Sobre Nós</a>
+                <a href="#" class="login-btn">Entrar</a>
+            </div>
+            <div class="menu-btn-box">
+                <button type="button" id="menu-btn" onclick="showNav()">
+                    <i class="bi bi-list" id="menu-icon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="banner-box">
+            <h2>Os melhores tênis do mercado</h2>
+            <p>Venha conhecer nossos produtos!</p>
+        </div>
+    </section>
+    <main class="main-content">
+        <section class="main-content-box">
+            <h2>Veja alguns de nossos produtos abaixo</h2>
+            <div class="cards-box">
+                <article class="card">
+                    <img src="img/tenis1.jpg" alt="Tênis branco" class="card-img">
+                    <h3 class="card-title">Sapato 1</h3>
+                    <p class="card-price">R$ 199,99</p>
+                    <a href="#" class="buy-btn">Comprar</a>
+                </article>
+                <article class="card">
+                    <img src="img/tenis2.jpg" alt="Tênis vermelho" class="card-img">
+                    <h3 class="card-title">Sapato 2</h3>
+                    <p class="card-price">R$ 199,99</p>
+                    <a href="#" class="buy-btn">Comprar</a>
+                </article>
+                <article class="card">
+                    <img src="img/tenis3.jpg" alt="Tênis colorido" class="card-img">
+                    <h3 class="card-title">Sapato 3</h3>
+                    <p class="card-price">R$ 199,99</p>
+                    <a href="#" class="buy-btn">Comprar</a>
+                </article>
+                <article class="card">
+                    <img src="img/tenis4.jpg" alt="Tênis marrom" class="card-img">
+                    <h3 class="card-title">Sapato 4</h3>
+                    <p class="card-price">R$ 199,99</p>
+                    <a href="#" class="buy-btn">Comprar</a>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-box">
+            <p class="copyright">&copy; 2023 Loja de Sapatos</p>
+            <p class="img-copyright">
+                Logo e favicon criados por <a href="https://www.flaticon.com/br/icones-gratis/tenis" title="tênis ícones">Freepik - Flaticon</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
